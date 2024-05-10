@@ -2,7 +2,7 @@
 
 100x parameter efficiency + LONG CTX
 
-
+```python
 from IKT import InfiniKANTransformer
  # Model parameters
 num_tokens = 10000
@@ -38,3 +38,5 @@ print(f"Logits shape: {logits.shape}")  # (1, 512, 10000)
 print(f"Number of layers with memories: {len(memories)}")  # 12 (number of layers)
 print(f"Memory shape (KV matrix): {memories[0][0].shape}")  # (1, 8, 64, 64) (batch, heads, dim_head, dim_head)
 print(f"Memory shape (Normalization vector): {memories[0][1].shape}")  # (1, 8, 64) (batch, heads, dim_head)
+
+```
