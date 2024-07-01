@@ -1,6 +1,6 @@
 # IKT
 
-100x parameter efficiency + LONG CTX
+100x parameter efficiency + LONG CTX (click bait)
 
 ```python
 from IKT import InfiniKANTransformer
